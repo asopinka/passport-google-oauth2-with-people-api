@@ -1,4 +1,4 @@
-# passport-google-oauth20
+# passport-google-oauth20-with-people-api
 
 [Passport](http://passportjs.org/) strategy for authenticating with [Google](http://www.google.com/)
 using the OAuth 2.0 API.
@@ -17,14 +17,14 @@ unobtrusively integrated into any application or framework that supports
 ## Install
 
 ```bash
-$ npm install passport-google-oauth20
+$ npm install passport-google-oauth20-with-people-api
 ```
 
 ## Usage
 
 #### Create an Application
 
-Before using `passport-google-oauth20`, you must register an application with
+Before using `passport-google-oauth20-with-people-api`, you must register an application with
 Google.  If you have not already done so, a new project can be created in the
 [Google Developers Console](https://console.developers.google.com/).
 Your application will be issued a client ID and client secret, which need to be
@@ -42,7 +42,7 @@ Google profile.  The `verify` callback must call `cb` providing a user to
 complete authentication.
 
 ```javascript
-var GoogleStrategy = require('passport-google-oauth20').Strategy;
+var GoogleStrategy = require('passport-google-oauth20-with-people-api').Strategy;
 
 passport.use(new GoogleStrategy({
     clientID: GOOGLE_CLIENT_ID,

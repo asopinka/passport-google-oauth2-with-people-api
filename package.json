@@ -1,5 +1,5 @@
 {
-  "name": "passport-google-oauth20",
+  "name": "passport-google-oauth20-with-people-api",
   "version": "2.0.0",
   "description": "Google (OAuth 2.0) authentication strategy for Passport.",
   "keywords": [
@@ -11,16 +11,15 @@
     "identity"
   ],
   "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "http://www.jaredhanson.net/"
+    "name": "Alex Sopinka",
+    "url": "https://sopinka.com/"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/passport-google-oauth2.git"
+    "url": "git://github.com/asopinka/passport-google-oauth2-with-people-api.git"
   },
   "bugs": {
-    "url": "http://github.com/jaredhanson/passport-google-oauth2/issues"
+    "url": "http://github.com/asopinka/passport-google-oauth2-with-people-api/issues"
   },
   "license": "MIT",
   "licenses": [
